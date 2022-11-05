@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            header{
+                width: 100%;
+                position: relative;
+            }
+            .wrapper{
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            form{
+                background: #fff;
+                border:.1rem solid rgba(0,0,0,.2);
+                box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+                border-radius: .5rem;
+                width: 500px;
+                padding: 50px;
+            }
+            form *{
+                margin: 10px 0;
+            }
+            input {
+                width: 100%;
+                margin-top: 1rem;
+                padding: 1rem;
+                font-size: 1.7rem;
+                color: #333;
+                background: #f7f7f7;
+                border-radius: .5rem;
+                text-transform: none;
+                display: flex;
+            }
+
+            .btn {
+                width: 100%;
+
+                padding: 10px 20px;
+                background-color: #FF5A3C;
+                color: white;
+            }
+            .divider{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .divider *{
+                margin: 5px;
+            }
+            hr{
+                height: 1px;
+                background-color: #272020;
+                width: 50%;
+                /* display: inline-block; */
+            }
+
+            label {
+                display: block;
+                font-size: 13px;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            label a{
+                color: #FF5A3C;
+            }
+
+            form h1 {
+                /* text-align: center; */
+                font-size: 48px;
+                color: #333333;
+            }
+        </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>Real</span>Estate</a>
+        <nav class="navbar">
+            <a href="login.html">Login</a>
+            <a href="register.html">Sign Up</a>
+            <a href="#featured">featured</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-bars" class="fas fa-bars"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
+            <input class="inputBox" name="email" type="email" placeholder="Your Email" required>
+            <input class="inputBox" name="password" type="password" placeholder="Your Password" required>
+            <button class="btn">Login</button>
+            <div class="divider">
+                <hr/>OR<hr/>
+            </div>
+            <label for="">Don't have an account ? <a href="register.html">Register</a></label>
+        </form>
+    </div>
+
+
+</div>
+</body>
+</html>

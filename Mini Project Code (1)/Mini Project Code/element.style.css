@@ -1,0 +1,133 @@
+element.style {
+}
+@media screen and (max-width: 991px)
+{}.main-nav {
+    padding: 5px 0;
+}
+.pb-2, .py-2 {
+    padding-bottom: 0.5rem!important;
+}
+.pt-2, .py-2 {
+    padding-top: 0.5rem!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: var(--theme-ordinary-font);
+    font-size: 15px;
+    line-height: 28px;
+}
+.text-ordinary, a.text-ordinary, .text-ordinary a, body, .dropdown-item, .footer-widget li a, .text-ordinary .jslider .jslider-label, .breadcrumb-item > a, .list-text-white a.dropdown-item {
+    color: var(--theme-ordinary-color);
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --theme-highlight-font: 'Comfortaa', cursive;
+}
+:root {
+    --theme-ordinary-font: 'Muli', sans-serif;
+}
+:root {
+    --theme-dark-opacity-color: rgba(0, 0, 0, 0.5);
+}
+:root {
+    --theme-white-opacity-color: rgba(255, 255, 255, 0.3);
+}
+:root {
+    --theme-secondary-opacity-color: rgba(13,20,50,0.7);
+}
+:root {
+    --theme-primary-opacity-color: rgba(11, 191, 141, .8);
+}
+:root {
+    --text-light-color: #a3a7af;
+}
+:root {
+    --theme-dark-color: #091b4b;
+}
+:root {
+    --theme-footer-color: #091b4b;
+}
+:root {
+    --theme-gray-color: #f5f5f5;
+}
+:root {
+    --theme-light-color: #f8f8f8;
+}
+:root {
+    --theme-white-color: #fff;
+}
+:root {
+    --theme-secondary-color: #0d1432;
+}
+:root {
+    --theme-primary-color: #17c788;
+}
+:root {
+    --theme-ordinary-color: #74777b;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+.formicon .checkbox-collapse::after, .jslider .jslider-pointer, .jslider .jslider-bg .v, .view-category button.active, .nav-pills .nav-link.active, .property-video a, .ball-scale-multiple > div, .submit-form .radio-check input[type="checkbox"]:checked + label, .bg-shape::before, .bg-shape::after, .send-mail button, ::-webkit-scrollbar-thumb {
+    background-color: var(--theme-primary-color);
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px #ececec;
+}
